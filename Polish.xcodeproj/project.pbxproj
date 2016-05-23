@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F70F02D1CC1DDCC0038092D /* NailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F02C1CC1DDCC0038092D /* NailsViewController.swift */; };
+		2F70F02F1CC1DDFC0038092D /* NailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F02E1CC1DDFC0038092D /* NailsTableViewController.swift */; };
+		2F70F0311CC1DE540038092D /* Nails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F0301CC1DE540038092D /* Nails.swift */; };
+		2F70F0331CC1E28D0038092D /* NailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F0321CC1E28D0038092D /* NailsTableViewCell.swift */; };
+		2F9E80F31CC184140086EECE /* PolishTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E80F21CC184140086EECE /* PolishTableViewController.swift */; };
+		2F9E80F51CC190F50086EECE /* Polish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E80F41CC190F50086EECE /* Polish.swift */; };
+		2F9E80F71CC19C1D0086EECE /* PolishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E80F61CC19C1D0086EECE /* PolishTableViewCell.swift */; };
+		2F9E80F91CC19FC50086EECE /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E80F81CC19FC50086EECE /* Photo.swift */; };
+		2F9E80FB1CC1ACC70086EECE /* PolishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E80FA1CC1ACC70086EECE /* PolishViewController.swift */; };
 		2FBA7C5F1CC1659400ED79A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA7C5E1CC1659400ED79A1 /* AppDelegate.swift */; };
 		2FBA7C611CC1659400ED79A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA7C601CC1659400ED79A1 /* ViewController.swift */; };
 		2FBA7C641CC1659400ED79A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA7C621CC1659400ED79A1 /* Main.storyboard */; };
@@ -14,6 +23,10 @@
 		2FBA7C691CC1659400ED79A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA7C681CC1659400ED79A1 /* Assets.xcassets */; };
 		2FBA7C6C1CC1659400ED79A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA7C6A1CC1659400ED79A1 /* LaunchScreen.storyboard */; };
 		2FBA7C771CC1659400ED79A1 /* PolishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA7C761CC1659400ED79A1 /* PolishTests.swift */; };
+		2FF1B00F1CD6DCF200E68CBE /* MakeupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1B00E1CD6DCF200E68CBE /* MakeupTableViewCell.swift */; };
+		2FF1B0111CD6DD2F00E68CBE /* MakeupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1B0101CD6DD2F00E68CBE /* MakeupTableViewController.swift */; };
+		2FF1B0131CD6DD4800E68CBE /* MakeupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1B0121CD6DD4800E68CBE /* MakeupViewController.swift */; };
+		2FF1B0151CD6DD5500E68CBE /* Makeup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1B0141CD6DD5500E68CBE /* Makeup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +40,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F70F02C1CC1DDCC0038092D /* NailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NailsViewController.swift; path = Nails/NailsViewController.swift; sourceTree = "<group>"; };
+		2F70F02E1CC1DDFC0038092D /* NailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NailsTableViewController.swift; path = Nails/NailsTableViewController.swift; sourceTree = "<group>"; };
+		2F70F0301CC1DE540038092D /* Nails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nails.swift; sourceTree = "<group>"; };
+		2F70F0321CC1E28D0038092D /* NailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NailsTableViewCell.swift; path = Nails/NailsTableViewCell.swift; sourceTree = "<group>"; };
+		2F9E80F21CC184140086EECE /* PolishTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolishTableViewController.swift; path = Polish/PolishTableViewController.swift; sourceTree = "<group>"; };
+		2F9E80F41CC190F50086EECE /* Polish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Polish.swift; path = Polish/Polish.swift; sourceTree = "<group>"; };
+		2F9E80F61CC19C1D0086EECE /* PolishTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolishTableViewCell.swift; path = Polish/PolishTableViewCell.swift; sourceTree = "<group>"; };
+		2F9E80F81CC19FC50086EECE /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = Polish/Photo.swift; sourceTree = "<group>"; };
+		2F9E80FA1CC1ACC70086EECE /* PolishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolishViewController.swift; path = Polish/PolishViewController.swift; sourceTree = "<group>"; };
 		2FBA7C5B1CC1659400ED79A1 /* Polish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polish.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FBA7C5E1CC1659400ED79A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FBA7C601CC1659400ED79A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FBA7C5E1CC1659400ED79A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Polish/AppDelegate.swift; sourceTree = "<group>"; };
+		2FBA7C601CC1659400ED79A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Polish/ViewController.swift; sourceTree = "<group>"; };
 		2FBA7C631CC1659400ED79A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FBA7C661CC1659400ED79A1 /* Polish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Polish.xcdatamodel; sourceTree = "<group>"; };
-		2FBA7C681CC1659400ED79A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBA7C681CC1659400ED79A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Polish/Assets.xcassets; sourceTree = "<group>"; };
 		2FBA7C6B1CC1659400ED79A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2FBA7C6D1CC1659400ED79A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBA7C6D1CC1659400ED79A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Polish/Info.plist; sourceTree = "<group>"; };
 		2FBA7C721CC1659400ED79A1 /* PolishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBA7C761CC1659400ED79A1 /* PolishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolishTests.swift; sourceTree = "<group>"; };
 		2FBA7C781CC1659400ED79A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF1B00E1CD6DCF200E68CBE /* MakeupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MakeupTableViewCell.swift; path = Makeup/MakeupTableViewCell.swift; sourceTree = "<group>"; };
+		2FF1B0101CD6DD2F00E68CBE /* MakeupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MakeupTableViewController.swift; path = Makeup/MakeupTableViewController.swift; sourceTree = "<group>"; };
+		2FF1B0121CD6DD4800E68CBE /* MakeupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MakeupViewController.swift; path = Makeup/MakeupViewController.swift; sourceTree = "<group>"; };
+		2FF1B0141CD6DD5500E68CBE /* Makeup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Makeup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +84,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F70F0281CC1DBD50038092D /* Nails */ = {
+			isa = PBXGroup;
+			children = (
+				2F70F02C1CC1DDCC0038092D /* NailsViewController.swift */,
+				2F70F02E1CC1DDFC0038092D /* NailsTableViewController.swift */,
+				2F70F0301CC1DE540038092D /* Nails.swift */,
+				2F70F0321CC1E28D0038092D /* NailsTableViewCell.swift */,
+			);
+			name = Nails;
+			sourceTree = "<group>";
+		};
+		2F70F0291CC1DD190038092D /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+		2F70F02A1CC1DD210038092D /* MakeUp */ = {
+			isa = PBXGroup;
+			children = (
+				2FF1B00E1CD6DCF200E68CBE /* MakeupTableViewCell.swift */,
+				2FF1B0101CD6DD2F00E68CBE /* MakeupTableViewController.swift */,
+				2FF1B0121CD6DD4800E68CBE /* MakeupViewController.swift */,
+				2FF1B0141CD6DD5500E68CBE /* Makeup.swift */,
+			);
+			name = MakeUp;
+			sourceTree = "<group>";
+		};
+		2F70F02B1CC1DD640038092D /* MyProducts */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA7C5E1CC1659400ED79A1 /* AppDelegate.swift */,
+				2FBA7C601CC1659400ED79A1 /* ViewController.swift */,
+				2F9E80FA1CC1ACC70086EECE /* PolishViewController.swift */,
+				2FBA7C621CC1659400ED79A1 /* Main.storyboard */,
+				2F9E80F21CC184140086EECE /* PolishTableViewController.swift */,
+				2F9E80F81CC19FC50086EECE /* Photo.swift */,
+				2FBA7C681CC1659400ED79A1 /* Assets.xcassets */,
+				2FBA7C6A1CC1659400ED79A1 /* LaunchScreen.storyboard */,
+				2FBA7C6D1CC1659400ED79A1 /* Info.plist */,
+				2FBA7C651CC1659400ED79A1 /* Polish.xcdatamodeld */,
+				2F9E80F41CC190F50086EECE /* Polish.swift */,
+				2F9E80F61CC19C1D0086EECE /* PolishTableViewCell.swift */,
+			);
+			name = MyProducts;
+			sourceTree = "<group>";
+		};
 		2FBA7C521CC1659300ED79A1 = {
 			isa = PBXGroup;
 			children = (
+				2FBA7C5C1CC1659400ED79A1 /* Products */,
+				2F70F02B1CC1DD640038092D /* MyProducts */,
+				2F70F02A1CC1DD210038092D /* MakeUp */,
+				2F70F0291CC1DD190038092D /* Favorites */,
+				2F70F0281CC1DBD50038092D /* Nails */,
 				2FBA7C5D1CC1659400ED79A1 /* Polish */,
 				2FBA7C751CC1659400ED79A1 /* PolishTests */,
-				2FBA7C5C1CC1659400ED79A1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +157,6 @@
 		2FBA7C5D1CC1659400ED79A1 /* Polish */ = {
 			isa = PBXGroup;
 			children = (
-				2FBA7C5E1CC1659400ED79A1 /* AppDelegate.swift */,
-				2FBA7C601CC1659400ED79A1 /* ViewController.swift */,
-				2FBA7C621CC1659400ED79A1 /* Main.storyboard */,
-				2FBA7C681CC1659400ED79A1 /* Assets.xcassets */,
-				2FBA7C6A1CC1659400ED79A1 /* LaunchScreen.storyboard */,
-				2FBA7C6D1CC1659400ED79A1 /* Info.plist */,
-				2FBA7C651CC1659400ED79A1 /* Polish.xcdatamodeld */,
 			);
 			path = Polish;
 			sourceTree = "<group>";
@@ -200,8 +271,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9E80F91CC19FC50086EECE /* Photo.swift in Sources */,
+				2F9E80F71CC19C1D0086EECE /* PolishTableViewCell.swift in Sources */,
+				2F9E80F31CC184140086EECE /* PolishTableViewController.swift in Sources */,
+				2F70F02D1CC1DDCC0038092D /* NailsViewController.swift in Sources */,
+				2FF1B0111CD6DD2F00E68CBE /* MakeupTableViewController.swift in Sources */,
+				2F9E80FB1CC1ACC70086EECE /* PolishViewController.swift in Sources */,
+				2F70F02F1CC1DDFC0038092D /* NailsTableViewController.swift in Sources */,
 				2FBA7C611CC1659400ED79A1 /* ViewController.swift in Sources */,
+				2F70F0311CC1DE540038092D /* Nails.swift in Sources */,
 				2FBA7C671CC1659400ED79A1 /* Polish.xcdatamodeld in Sources */,
+				2FF1B0151CD6DD5500E68CBE /* Makeup.swift in Sources */,
+				2FF1B0131CD6DD4800E68CBE /* MakeupViewController.swift in Sources */,
+				2FF1B00F1CD6DCF200E68CBE /* MakeupTableViewCell.swift in Sources */,
+				2F70F0331CC1E28D0038092D /* NailsTableViewCell.swift in Sources */,
+				2F9E80F51CC190F50086EECE /* Polish.swift in Sources */,
 				2FBA7C5F1CC1659400ED79A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +315,7 @@
 				2FBA7C631CC1659400ED79A1 /* Base */,
 			);
 			name = Main.storyboard;
+			path = Polish;
 			sourceTree = "<group>";
 		};
 		2FBA7C6A1CC1659400ED79A1 /* LaunchScreen.storyboard */ = {
@@ -239,6 +324,7 @@
 				2FBA7C6B1CC1659400ED79A1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Polish;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +476,7 @@
 				2FBA7C7D1CC1659400ED79A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FBA7C7E1CC1659400ED79A1 /* Build configuration list for PBXNativeTarget "PolishTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +485,7 @@
 				2FBA7C801CC1659400ED79A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -408,7 +496,8 @@
 				2FBA7C661CC1659400ED79A1 /* Polish.xcdatamodel */,
 			);
 			currentVersion = 2FBA7C661CC1659400ED79A1 /* Polish.xcdatamodel */;
-			path = Polish.xcdatamodeld;
+			name = Polish.xcdatamodeld;
+			path = Polish/Polish.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
