@@ -11,6 +11,9 @@
 		2F70F02F1CC1DDFC0038092D /* NailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F02E1CC1DDFC0038092D /* NailsTableViewController.swift */; };
 		2F70F0311CC1DE540038092D /* Nails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F0301CC1DE540038092D /* Nails.swift */; };
 		2F70F0331CC1E28D0038092D /* NailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70F0321CC1E28D0038092D /* NailsTableViewCell.swift */; };
+		2F9DB3ED1CF3C4FC0038F3BD /* storyboard1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DB3EB1CF3C4FC0038F3BD /* storyboard1.storyboard */; };
+		2F9DB3F01CF3C51A0038F3BD /* storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DB3EE1CF3C51A0038F3BD /* storyboard2.storyboard */; };
+		2F9DB3F31CF3C52D0038F3BD /* storyboard4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9DB3F11CF3C52D0038F3BD /* storyboard4.storyboard */; };
 		2F9E80F31CC184140086EECE /* PolishTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E80F21CC184140086EECE /* PolishTableViewController.swift */; };
 		2F9E80F51CC190F50086EECE /* Polish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E80F41CC190F50086EECE /* Polish.swift */; };
 		2F9E80F71CC19C1D0086EECE /* PolishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E80F61CC19C1D0086EECE /* PolishTableViewCell.swift */; };
@@ -44,6 +47,9 @@
 		2F70F02E1CC1DDFC0038092D /* NailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NailsTableViewController.swift; path = Nails/NailsTableViewController.swift; sourceTree = "<group>"; };
 		2F70F0301CC1DE540038092D /* Nails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nails.swift; sourceTree = "<group>"; };
 		2F70F0321CC1E28D0038092D /* NailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NailsTableViewCell.swift; path = Nails/NailsTableViewCell.swift; sourceTree = "<group>"; };
+		2F9DB3EC1CF3C4FC0038F3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Polish/Base.lproj/storyboard1.storyboard; sourceTree = "<group>"; };
+		2F9DB3EF1CF3C51A0038F3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Polish/Base.lproj/storyboard2.storyboard; sourceTree = "<group>"; };
+		2F9DB3F21CF3C52D0038F3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Polish/Base.lproj/storyboard4.storyboard; sourceTree = "<group>"; };
 		2F9E80F21CC184140086EECE /* PolishTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolishTableViewController.swift; path = Polish/PolishTableViewController.swift; sourceTree = "<group>"; };
 		2F9E80F41CC190F50086EECE /* Polish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Polish.swift; path = Polish/Polish.swift; sourceTree = "<group>"; };
 		2F9E80F61CC19C1D0086EECE /* PolishTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PolishTableViewCell.swift; path = Polish/PolishTableViewCell.swift; sourceTree = "<group>"; };
@@ -120,6 +126,9 @@
 				2FBA7C601CC1659400ED79A1 /* ViewController.swift */,
 				2F9E80FA1CC1ACC70086EECE /* PolishViewController.swift */,
 				2FBA7C621CC1659400ED79A1 /* Main.storyboard */,
+				2F9DB3F11CF3C52D0038F3BD /* storyboard4.storyboard */,
+				2F9DB3EE1CF3C51A0038F3BD /* storyboard2.storyboard */,
+				2F9DB3EB1CF3C4FC0038F3BD /* storyboard1.storyboard */,
 				2F9E80F21CC184140086EECE /* PolishTableViewController.swift */,
 				2F9E80F81CC19FC50086EECE /* Photo.swift */,
 				2FBA7C681CC1659400ED79A1 /* Assets.xcassets */,
@@ -254,6 +263,9 @@
 				2FBA7C6C1CC1659400ED79A1 /* LaunchScreen.storyboard in Resources */,
 				2FBA7C691CC1659400ED79A1 /* Assets.xcassets in Resources */,
 				2FBA7C641CC1659400ED79A1 /* Main.storyboard in Resources */,
+				2F9DB3F01CF3C51A0038F3BD /* storyboard2.storyboard in Resources */,
+				2F9DB3F31CF3C52D0038F3BD /* storyboard4.storyboard in Resources */,
+				2F9DB3ED1CF3C4FC0038F3BD /* storyboard1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +321,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2F9DB3EB1CF3C4FC0038F3BD /* storyboard1.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9DB3EC1CF3C4FC0038F3BD /* Base */,
+			);
+			name = storyboard1.storyboard;
+			sourceTree = "<group>";
+		};
+		2F9DB3EE1CF3C51A0038F3BD /* storyboard2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9DB3EF1CF3C51A0038F3BD /* Base */,
+			);
+			name = storyboard2.storyboard;
+			sourceTree = "<group>";
+		};
+		2F9DB3F11CF3C52D0038F3BD /* storyboard4.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F9DB3F21CF3C52D0038F3BD /* Base */,
+			);
+			name = storyboard4.storyboard;
+			sourceTree = "<group>";
+		};
 		2FBA7C621CC1659400ED79A1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
